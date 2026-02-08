@@ -101,4 +101,5 @@ Developing **BibliOCR** presented several complex engineering challenges:
 ---
 
 ### 👨‍💻 Developed by
-**Easy Reading prin tehnologii IoT** - Technical University Bachelor Thesis.
+**Dobre Roxana-Elena**
+*Easy Reading prin tehnologii IoT* - Technical University Bachelor Thesis.
