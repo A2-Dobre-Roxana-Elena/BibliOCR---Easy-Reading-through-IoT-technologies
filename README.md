@@ -13,7 +13,9 @@
 
 ## 📱 Application Preview
 
-![BibliOCR Preview](.documentation/assets/media2.gif)
+<p align="center">
+  <img src=".documentation/assets/media2.gif" alt="BibliOCR Preview" width="350">
+</p>
 
 ---
 
