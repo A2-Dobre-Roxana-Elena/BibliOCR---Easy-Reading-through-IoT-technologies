@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <uses-feature
+      android:name="android.hardware.camera"
+      android:required="false" />
+
+  <!-- Permisiune pentru accesul la internet -->
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+      android:maxSdkVersion="32" />
+
+  <application
+      android:allowBackup="false"
+      android:icon="@drawable/canhub_logo_purple"
+      android:theme="@style/Theme.Sample"
+      android:label="BibliOCR"
+      android:name="com.canhub.cropper.sample.SampleApplication"
+      tools:ignore="DataExtractionRules">
+
+    <activity
+        android:name="com.canhub.cropper.sample.MainActivity" 
+        android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+
+    <activity android:name="com.canhub.cropper.sample.SampleResultScreen"/>
+    <activity android:name="com.canhub.cropper.CropImageActivity"/>
+    <activity
+        android:name="com.canhub.cropper.sample.SampleCustomActivity"
+        android:theme="@style/Theme.Sample"/>
+
+    <activity android:name="com.canhub.cropper.sample.LoginActivity"/>
+    <activity android:name="com.canhub.cropper.sample.LoginUserActivity"/>
+    <activity android:name="com.canhub.cropper.sample.LoginAdminActivity"/>
+    <activity android:name="com.canhub.cropper.sample.AcasaUtilizatorActivity"/>
+    <activity android:name="com.canhub.cropper.sample.AcasaAdminActivity"/>
+    <activity android:name="com.canhub.cropper.sample.AddBookActivity"/>
+    <activity android:name="com.canhub.cropper.sample.AddQuoteActivity"/>
+    <activity android:name="com.canhub.cropper.sample.AddUserActivity"/>
+    <activity android:name="com.canhub.cropper.sample.StartPage"/>
+    <activity android:name="com.canhub.cropper.sample.PaginaCarteActivity"/>
+    <activity android:name="com.canhub.cropper.sample.PaginaImprumuturi"/>
+    <activity android:name="com.canhub.cropper.sample.bazadedate.PaginaCitatActivity" />
+
+  </application>
+</manifest>

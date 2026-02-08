@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "777551290632",
+    "project_id": "myapp-6702c",
+    "storage_bucket": "myapp-6702c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777551290632:android:e3d5a312190f88829c0cbd",
+        "android_client_info": {
+          "package_name": "com.example.croppersample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5iRqlEsHSkjojgzWaWFWqZDxcGv6lB2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

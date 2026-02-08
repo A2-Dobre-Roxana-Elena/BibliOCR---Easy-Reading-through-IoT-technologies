@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_view_id_instanta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Instanță"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/text_view_editura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editură"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/text_view_an"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anul publicării"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/text_view_isbn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISBN"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/text_view_disponibilitate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disponibilitate"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Butonul de împrumut -->
+    <Button
+        android:id="@+id/btn_imprumuta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Împrumută"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_returneaza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmă returnarea"
+        android:backgroundTint="@color/maro_inchis"
+        android:layout_marginTop="8dp"
+
+        android:visibility="gone"/>
+
+</LinearLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="16dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_view_id_instanta"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Id Instanta"-->
+<!--        android:textSize="14sp"-->
+<!--        android:textColor="@android:color/black"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_view_editura"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Editura"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textColor="@android:color/black"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_view_isbn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="ISBN"-->
+<!--        android:textSize="14sp"-->
+<!--        android:textColor="@android:color/darker_gray"/>-->
+
+<!--</LinearLayout>-->
+
+
+<!--    &lt;!&ndash;<?xml version="1.0" encoding="utf-8"?>&ndash;&gt;-->
+<!--&lt;!&ndash;<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:orientation="vertical"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:padding="16dp">&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/text_view_id_instanta"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Id Instanta"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textSize="14sp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textColor="@android:color/black"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/text_view_editura"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Editura"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textSize="16sp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textColor="@android:color/black"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/text_view_isbn"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="ISBN"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textSize="14sp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textColor="@android:color/darker_gray"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->

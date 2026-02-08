@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <bool name="leak_canary_add_launcher_icon" tools:ignore="UnusedResources">false</bool>
+  <string name="app_name" translatable="false">Android Image Cropper</string>
+  <string name="result_image_desc" translatable="false">crop result</string>
+  <string name="main_action_crop" translatable="false">CROP</string>
+  <string name="main_action_rotate" translatable="false">Rotate 90 degrees clockwise</string>
+  <string name="fit_center" translatable="false">Fit Center</string>
+  <string name="center" translatable="false">Center</string>
+  <string name="center_crop" translatable="false">Center Crop</string>
+  <string name="center_inside" translatable="false">Center Inside</string>
+  <string name="rectangle" translatable="false">Rectangle</string>
+  <string name="oval" translatable="false">Oval</string>
+  <string name="rectangleVerticalOnly" translatable="false">Rectangle - vertical only</string>
+  <string name="rectangleHorizontalOnly" translatable="false">Rectangle - horizontal only</string>
+  <string name="off" translatable="false">Off</string>
+  <string name="on_touch" translatable="false">On Touch</string>
+  <string name="on" translatable="false">ON</string>
+  <string name="ratio_16_9" translatable="false">16,9</string>
+  <string name="ratio_4_3" translatable="false">4,3</string>
+  <string name="ratio_2_1" translatable="false">2,1</string>
+  <string name="ratio_1_1" translatable="false">1,1</string>
+  <string name="free" translatable="false">Free</string>
+  <string name="ratio" translatable="false">Ratio</string>
+  <string name="guidelines" translatable="false">Guidelines</string>
+  <string name="crop_shape" translatable="false">Crop Shape</string>
+  <string name="scale_type" translatable="false">Scale Type</string>
+  <string name="max_zoom_level" translatable="false">Max Zoom Level</string>
+  <string name="zoom_2" translatable="false">2</string>
+  <string name="zoom_4" translatable="false">4</string>
+  <string name="zoom_8" translatable="false">8</string>
+  <string name="auto_zoom" translatable="false">Auto Zoom</string>
+  <string name="multi_touch" translatable="false">Multi Touch</string>
+  <string name="center_move" translatable="false">Enable movement by dragging center</string>
+  <string name="show_crop_overlay" translatable="false">Show Crop Overlay</string>
+  <string name="show_progress_bar" translatable="false">Show Progress Bar</string>
+  <string name="flip_horizontal" translatable="false">Flip Horizontal</string>
+  <string name="flip_vertical" translatable="false">Flip Vertical</string>
+  <string name="reset" translatable="false">Reset Crop Rect</string>
+  <string name="sample_using_cropimageview" translatable="false">Sample using CropImageView</string>
+  <string name="sample_of_customactivity" translatable="false">Sample of CustomActivity</string>
+  <string name="sample_calling_cropimage" translatable="false">Sample calling CropImage</string>
+  <string name="takePictureBeforeCallLibraryWithUri_text" translatable="false">Take camera picture before calling library with uri</string>
+  <string name="callLibraryWithoutUri_text" translatable="false">Call library directly without uri</string>
+  <string name="callLibraryWithoutUriCameraOnly_text" translatable="false">Call library directly without uri. Camera only</string>
+  <string name="callLibraryWithoutUriGalleryOnly_text" translatable="false">Call library directly without uri. Gallery only</string>
+  <string name="save" translatable="false">Save</string>
+  <string name="rotation_value" translatable="false">Click to change rotation: %1$s</string>
+  <string name="crop_corner__shape" translatable="false">Corner Shape</string>
+  <string name="show_crop_label_text" translatable="false">Show Crop Label Text</string>
+  <string name="default_crop_label_text" translatable="false">Sample crop label</string>
+    <string name="takepicturebeforecalllibrarywithuri_text" translatable="false">takePictureBeforeCallLibraryWithUri_text</string>
+  <string name="calllibrarywithouturicameraonly_text" translatable="false">callLibraryWithoutUriCameraOnly_text</string>
+  <string name="calllibrarywithouturigalleryonly_text" translatable="false">callLibraryWithoutUriGalleryOnly_text</string>
+  <string name="calllibrarywithouturi_text" translatable="false">callLibraryWithoutUri_text</string>
+    <string name="image_preview" translatable="false">Image Preview</string>
+  <string name="click_button_to_add_image">Click + button to add image</string>
+  <string name="result">Result</string>
+  <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="choose_image">Choose Image</string>
+  <string name="take_photo">Take Photo</string>
+  <string name="recognized_text_will_appear_here">Recognized text will appear here</string>
+    <string name="autor">Autor</string>
+  <string name="introduce_i_autorul">Introduceți autorul</string>
+  <string name="titlu">Titlu</string>
+  <string name="introduce_i_titlul">Introduceți titlul</string>
+  <string name="editur">Editură</string>
+  <string name="introduce_i_editura">Introduceți editura</string>
+  <string name="adaug">Adaugă</string>
+    <string name="nume_utilizator">Nume utilizator</string>
+    <string name="citat_personal">Citat Personal</string>
+</resources>
