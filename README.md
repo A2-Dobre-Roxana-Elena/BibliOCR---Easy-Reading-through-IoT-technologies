@@ -70,9 +70,9 @@ The project follows a robust Client-Cloud architecture:
 
 Developing **BibliOCR** presented several complex engineering challenges:
 
-1.  **AI-Driven Precision**: To achieve a seamless OCR experience, the system utilizes the **Google ML Kit (Text Recognition API)** for robust text extraction. To enhance the accuracy of these APIs, we integrated the [Android-Image-Cropper](https://github.com/CanHub/Android-Image-Cropper) library, which allows users to precisely crop and isolate the text area before processing. This combination effectively handles varying lighting, font styles, and angles.
+1.  **AI-Driven Precision**: To achieve a seamless OCR experience, the system utilizes the **Google ML Kit (Text Recognition API)** for robust text extraction. To enhance the accuracy of these APIs, the [Android-Image-Cropper](https://github.com/CanHub/Android-Image-Cropper) library was integrated, allowing users to precisely crop and isolate the text area before processing. This combination effectively handles varying lighting, font styles, and angles.
 2.  **NoSQL Relational Mapping**: Managing complex relationships (Users ↔ Loans ↔ Book Instances ↔ Quotes) in **Firebase Firestore** (a NoSQL document-based DB) required implementing custom transaction logic and atomic counters to prevent race conditions during high-frequency borrowing.
-3.  **Security Hierarchy**: Passwords are never stored in plain text. We implemented **BCrypt** hashing directly on the client-side/logic layer to ensure enterprise-grade security within a student project context.
+3.  **Security Hierarchy**: Passwords are never stored in plain text. **BCrypt** hashing was implemented directly on the client-side/logic layer to ensure enterprise-grade security within a student project context.
 4.  **Real-Time State Consistency**: Ensuring that a book marked as "Borrowed" on one device instantly disappears from the "Available" list on all other devices through Firestore Snapshots.
 
 ---
